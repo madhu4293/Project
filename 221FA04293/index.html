@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Device</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>About Device</h1>
+        <div class="form-group">
+            <label for="company">Select Company:</label>
+            <select id="company" onchange="showModels()">
+                <option value="">-- Select Company --</option>
+            </select>
+        </div>
+        <div id="models" class="models"></div>
+        <div id="model-details" class="model-details"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
